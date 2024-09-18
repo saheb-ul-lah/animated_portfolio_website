@@ -8,8 +8,8 @@ import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-import resumePDF from "../../assets/Resume.pdf";
-
+import resumePDF from "../../assets/Saheb's resume 2024.pdf";
+import profilePic from "../../assets/upscaled-profile-pic.png"
 
 const Hero = () => {
   return (
@@ -21,7 +21,7 @@ const Hero = () => {
               data-aos="fade-up"
               className=" text-5xl font-bold sm:text-[2rem]"
             >
-              Hello, I'm John  Doe
+              Hello, I'm Muhammad Sahebullah
             </h2>
             <TypeAnimation
               data-aos="fade-up"
@@ -41,7 +41,7 @@ const Hero = () => {
               // data-aos="fade-up"
               className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
             >
-              Lorem ipsum dolor sit amet consectetur
+            I am a web developer with expertise in the MERN stack (MongoDB, Express, React, Node.js). 
             </p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
@@ -49,7 +49,7 @@ const Hero = () => {
               href=""
               className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-yellow-500"
             >
-              <span> Hire Me</span>
+              <span> Contact Me</span>
             </a>
             <a
               href={resumePDF}
@@ -68,24 +68,24 @@ const Hero = () => {
               className=" flex gap-5"
             >
               <li>
-                <a href="">
+                <a href="https://github.com/saheb-ul-lah">
                   {" "}
                   <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />{" "}
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://www.linkedin.com/in/saheb-ullah-05292a258">
                   {" "}
                   <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 " />{" "}
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://www.instagram.com/saheb.ul.lah/">
                   {" "}
                   <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="">
                   {" "}
                   <FaFacebook className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
@@ -96,7 +96,7 @@ const Hero = () => {
                   {" "}
                   <AiFillTwitterCircle className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
@@ -104,8 +104,8 @@ const Hero = () => {
           <div className="relative h-[88%] w-fit flex items-center sm:items-end">
             <img
             data-aos="fade-up"
-              className=" h-[90%]  w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              src='https://i.postimg.cc/pTn61Gr1/Untitled-design222-modified.png'
+              className=" h-[60%] border-2 rounded-full w-full object-cover md:h-[95%] md:m-auto sm:m-0"
+              src={profilePic}
               // src={mine}
               alt="mine"
             />

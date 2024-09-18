@@ -3,6 +3,7 @@ import ProgressBar from "../../chip/ProgressBar";
 import SkillBox from "../../chip/SkillBox";
 
 import { IoLogoHtml5, IoLogoCss3 } from "react-icons/io";
+import { FaJava } from "react-icons/fa";
 
 
 import {
@@ -84,11 +85,11 @@ const Skills = ({ darkMode }) => {
               <SkillBox
                 className=""
                 logo={
-                  <GrCode/>
+                  <FaJava />
                 }
                 black={"black"}
                 white={"white"}
-                skill={"C++"}
+                skill={"Java"}
               />
               {/* <SkillBox
                 className=""

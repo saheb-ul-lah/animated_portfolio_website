@@ -10,7 +10,7 @@ const Footer = () => {
         <h2 
         data-aos="zoom-out"
          className=" font-bold text-5xl sm:text-3xl">Let's Talk</h2>
-        <div className=" flex items-center justify-center gap-8 sm:gap-5">
+        {/* <div className=" flex items-center justify-center gap-8 sm:gap-5">
           <a 
           data-aos="fade-up" data-aos-duration="1000"
 
@@ -38,9 +38,9 @@ const Footer = () => {
             <RiInstagramFill className=" text-black text-3xl hover:scale-125 cursor-pointer" />
             <p>Instagram</p>
           </a>
-        </div>
+        </div> */}
         <div className="sm:text-[12px]">
-          | Copyright &copy; <span>2023 Dev AlphaSpace </span> All rights reserved
+          | Copyright &copy; <span>2023 Muhammad SahebUllah | </span> All rights reserved
           <a href="#"></a> |
         </div>
       </div>
